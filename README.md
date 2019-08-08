@@ -1,5 +1,5 @@
 # Authentication Services
-This documentation is part of this blog [post]().
+This documentation is part of this blog [post](https://awesomaticblog.wordpress.com/2019/08/08/requirements-as-first-class-citizens-2/).
 
 ## Prerequisites
 Install the following software in your development environment:
