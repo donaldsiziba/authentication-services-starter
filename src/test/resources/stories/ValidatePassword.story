@@ -15,12 +15,12 @@ Then the result should be <valid>
 And the following message should be returned to the user <message>
 
 Examples:
-| password         | system | valid | messages                                              |
-| userp@ssw0rd     | eforex | false | Password should have at least one uppercase character |
-| USERP@SSW0RD     | eforex | fasle | Password should have at least one lowercase character |
-| UserP@ssword     | eforex | false | Password should have at least one digit |
-| UserPassw0rd     | eforex | fasle | Password should have at least one special character |
-| UserP@sw0rd      | eforex | false | Password should be at least 12 characters long |
-| UserP@ssw0rD     | eforex | true  | |
-| userpasword      | eforex | fasle | Password should have at least one uppercase character, Password should have at least one digit, Password should have at least one special character, Password should be at least 12 characters long |
-| User   P@ss w0rd | eforex | false | Password should not have any whitespaces |
+| password         | valid | messages                                              |
+| userp@ssw0rd     | false | Password should have at least one uppercase character |
+| USERP@SSW0RD     | fasle | Password should have at least one lowercase character |
+| UserP@ssword     | false | Password should have at least one digit |
+| UserPassw0rd     | fasle | Password should have at least one special character |
+| UserP@sw0rd      | false | Password should be at least 12 characters long |
+| UserP@ssw0rD     | true  | |
+| userpasword      | fasle | Password should have at least one uppercase character, Password should have at least one digit, Password should have at least one special character, Password should be at least 12 characters long |
+| User   P@ss w0rd | false | Password should not have any whitespaces |
