@@ -44,7 +44,7 @@ To run the _Acceptance Test Suite_, type the following in command line on the pr
 ```bash
 mvn verify
 ```
->Note: use _mvn clean verify_ for subsequent builds.
+>Note: Use _mvn clean verify_ for subsequent builds.
 ### Acceptance Test Reports
 After the build has run, the Acceptance Test reports can be found in _target/site/serenity_. Use a browser to view the _index.html_ file.
 
