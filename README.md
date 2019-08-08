@@ -1,4 +1,4 @@
->Note: use _mvn clean verify_ for subsequ folder# Authentication Services
+# Authentication Services
 This documentation is part of this blog [post]().
 
 ## Prerequisites
@@ -18,7 +18,7 @@ After getting the project on your local environment, go ahead and build the proj
 ```bash
 mvn install
 ```
->Note: use _mvn clean verify_ for subsequ
+>Note: use _mvn clean verify_ for subsequent builds.
 ## The Project Structure
 ```
 └── src
