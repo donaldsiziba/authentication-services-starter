@@ -32,6 +32,11 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
+            <groupId>za.co.awesomatic.tdd</groupId>
+            <artifactId>password-validator</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-core</artifactId>
             <version>${serenity.version}</version>
