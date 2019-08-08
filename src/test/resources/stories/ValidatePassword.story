@@ -12,7 +12,7 @@ Scenario: Validate a given password against a set of Compliance Rules
 Given the following password <password>
 When the password is validated against a defined rule set
 Then the result should be <valid>
-And the following message should be returned to the user <message>
+And the following message should be returned to the user <messages>
 
 Examples:
 | password         | valid | messages                                              |
